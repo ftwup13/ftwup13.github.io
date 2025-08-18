@@ -1,12 +1,16 @@
 ---
 import Intro from '../components/Intro.astro';
 import Layout from '../layouts/Layout.astro';
+import {FullPageImage, IntroMithril} from '../components/MithrilGreet.jsx';
+
+import Negative_0_4 from "../assets/NEGATIVE-0-4.JPG";
+import basketballcourt from '../assets/hypecourt-basketball-court-katrien-vanderlinden-design_dezeen_2364_col_2-1704x965.jpg';
 
 // Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
 // Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
 ---
 
 <Layout>
-	<Intro />
-	<!-- <Welcome /> -->
+  <IntroMithril />
+  <FullPageImage image={Negative_0_4} />
 </Layout>
