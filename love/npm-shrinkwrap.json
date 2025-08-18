@@ -8,7 +8,15 @@
       "name": "love",
       "version": "0.0.1",
       "dependencies": {
-        "astro": "^5.12.5"
+        "@pioleong/astro-mithril": "^0.0.9",
+        "astro": "^5.12.8",
+        "mithril": "^2.3.3",
+        "mithril-node-render": "^3.0.2",
+        "tachyons": "^4.12.0"
+      },
+      "devDependencies": {
+        "@tailwindcss/vite": "^4.1.11",
+        "tailwindcss": "^4.1.11"
       }
     },
     "node_modules/@astrojs/compiler": {
@@ -937,6 +945,16 @@
       "resolved": "https://registry.npmjs.org/@oslojs/encoding/-/encoding-1.1.0.tgz",
       "integrity": "sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ==",
       "license": "MIT"
+    },
+    "node_modules/@pioleong/astro-mithril": {
+      "version": "0.0.8",
+      "resolved": "https://registry.npmjs.org/@pioleong/astro-mithril/-/astro-mithril-0.0.8.tgz",
+      "integrity": "sha512-iMliwzo7V3Eb3Hd3zabHXzN4jnWN5piE3Knjr+vZDILclEf/dwVyCwxHk1AWugxd8OURNMWdtXHUm4Qtd5kXHw==",
+      "license": "MIT",
+      "dependencies": {
+        "mithril": "^2.2.2",
+        "mithril-node-render": "^3.0.2"
+      }
     },
     "node_modules/@rollup/pluginutils": {
       "version": "5.2.0",
@@ -3430,6 +3448,21 @@
       ],
       "license": "MIT"
     },
+    "node_modules/mithril": {
+      "version": "2.3.3",
+      "resolved": "https://registry.npmjs.org/mithril/-/mithril-2.3.3.tgz",
+      "integrity": "sha512-SaO21JZsRCqDtv0IK94qabD9dy0fD71jStFlcVKtVxfo7aW4lKWW5dy9EURGjSQJNaJSfV6wNdXfP8hMtr94rg==",
+      "license": "MIT"
+    },
+    "node_modules/mithril-node-render": {
+      "version": "3.0.2",
+      "resolved": "https://registry.npmjs.org/mithril-node-render/-/mithril-node-render-3.0.2.tgz",
+      "integrity": "sha512-8GZfFWW7h1YjO8s9fe+vHpWG3zacGIytQ/FBKxlynHlwknp1KLRHM6MtrtbMy72dVdQOiYw7wyfZXD0IrvpQOQ==",
+      "license": "MIT",
+      "peerDependencies": {
+        "mithril": "^2.0.4"
+      }
+    },
     "node_modules/mrmime": {
       "version": "2.0.1",
       "resolved": "https://registry.npmjs.org/mrmime/-/mrmime-2.0.1.tgz",
@@ -4183,6 +4216,12 @@
       "funding": {
         "url": "https://github.com/chalk/strip-ansi?sponsor=1"
       }
+    },
+    "node_modules/tachyons": {
+      "version": "4.12.0",
+      "resolved": "https://registry.npmjs.org/tachyons/-/tachyons-4.12.0.tgz",
+      "integrity": "sha512-2nA2IrYFy3raCM9fxJ2KODRGHVSZNTW3BR0YnlGsLUf1DA3pk3YfWZ/DdfbnZK6zLZS+jUenlUGJsKcA5fUiZg==",
+      "license": "MIT"
     },
     "node_modules/tiny-inflate": {
       "version": "1.0.3",
