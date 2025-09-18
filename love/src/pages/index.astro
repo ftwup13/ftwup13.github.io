@@ -1,7 +1,8 @@
 ---
-import Intro from '../components/Intro.astro';
 import Layout from '../layouts/Layout.astro';
-import {FullPageImage, IntroMithril} from '../components/MithrilGreet.jsx';
+import {FullPageImage, HeyNav, IntroMithril} from '../components/MithrilGreet.jsx';
+
+import settings from "../data/settings.json"
 
 import Negative_0_4 from "../assets/NEGATIVE-0-4.JPG";
 import basketballcourt from '../assets/hypecourt-basketball-court-katrien-vanderlinden-design_dezeen_2364_col_2-1704x965.jpg';
@@ -11,6 +12,7 @@ import basketballcourt from '../assets/hypecourt-basketball-court-katrien-vander
 ---
 
 <Layout>
-  <IntroMithril />
-  <FullPageImage image={Negative_0_4} />
+  <!-- <HeyNav settings={ settings } /> -->
+  <IntroMithril settings={ settings }/>
+  <FullPageImage image={ Negative_0_4 } />
 </Layout>

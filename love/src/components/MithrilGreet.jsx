@@ -18,18 +18,12 @@ const IntroMithril = {
                 }),
                 m("h1",
                   m("code",
-                    m("pre", "ftW.uP.13 | 籃球顧問")
-                   )
-                 ),
-
-
-                m("section[id=links]", {  // links
-                }, [
-                    m("a.button", {
+                    m("pre.section", m("a.button", {
                         target: "_",
                         href: "https://www.instagram.com/ftw.up.13/",
-                    }, "IG: https://www.instagram.com/ftw.up.13/"),
-                ]),
+                    }, "IG: ftW.uP.13 | 籃球顧問"))
+                   )
+                 ),
 
             ]),
         ]));
@@ -48,5 +42,19 @@ const FullPageImage = {
 };
 
 
+const HeyNav = {
+    view: (vnode) => {
+        return m("div.absolute.z-1.w-100.tr.pa3", [
+            m("nav", vnode.attrs.settings.nav.map((item) => (
+                m("a.bs-btn", {
+                    class: "bs-btn !bg-transparent before:translate-y-full hover:before:translate-y-0",
+                    href: item.link,
+                }, item.title)
+            ))),
+        ]);
+    },
+};
+
+
 export default IntroMithril;
-export {FullPageImage, IntroMithril};
+export {FullPageImage, HeyNav, IntroMithril};
