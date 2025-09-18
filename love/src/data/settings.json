@@ -1,0 +1,25 @@
+{
+    "title": "hey",
+    "nav": [
+        {
+            "link": "/#courses",
+            "title": "Courses"
+        },
+        {
+            "link": "/#case-studies",
+            "title": "Case studies"
+        },
+        {
+            "link": "/#reading",
+            "title": "Reading"
+        },
+        {
+            "link": "/#donate",
+            "title": "Donate"
+        },
+        {
+            "link": "/#faq",
+            "title": "FAQ"
+        }
+    ]
+}
